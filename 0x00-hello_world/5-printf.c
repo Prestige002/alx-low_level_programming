@@ -3,7 +3,7 @@
 /**
  * Main - print quote
  *
- * Now return the zer
+ * Return: return to zero
  *
  */
 int main(void)
