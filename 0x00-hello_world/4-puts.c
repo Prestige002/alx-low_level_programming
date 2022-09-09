@@ -3,8 +3,6 @@
 /**
  * the function which carries the main
  *
- * then print the description using puts
- *
  * return "0"
  *
  */
