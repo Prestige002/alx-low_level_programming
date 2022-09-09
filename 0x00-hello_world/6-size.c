@@ -7,7 +7,8 @@
  *
  */
 int main(void)
-{	int charSizes = sizeof(char);
+{	
+	int charSizes = sizeof(char);
  	int intSizes = sizeof(int);
  	int longSizes = sizeof(long int);
  	int longlongSizes = sizeof(long long int);
