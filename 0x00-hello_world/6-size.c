@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - To prints quote
+ * main - main entry
  *
  * Return: return to zero
  *
