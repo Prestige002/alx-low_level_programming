@@ -4,7 +4,7 @@
 /**
  * main - main point
  *
- * return -return one
+ * return: return one
  *
  */
 int main(void)
