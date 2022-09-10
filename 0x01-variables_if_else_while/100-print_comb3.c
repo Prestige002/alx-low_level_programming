@@ -30,9 +30,9 @@ int y = 0;
 		putchar(' ');
 	}
 	}
-	x++
+	x++;
 	}
-	y++
+	y++;
 	}
 	putchar('\n');
 	return (0);
