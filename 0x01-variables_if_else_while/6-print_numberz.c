@@ -15,7 +15,7 @@ int main(void)
 
 	for (x = 47; x < 56; x++)
 	{
-		putchar("%i", i);
+		putchar("%i", x);
 	}
 	putchar("\n");
 	return (0);
