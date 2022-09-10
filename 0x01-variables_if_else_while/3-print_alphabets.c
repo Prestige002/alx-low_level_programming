@@ -23,7 +23,7 @@ int main(void)
 	while (alpha <= 'Z')
 	{
 		putchar(alpha);
-		alpha++
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
