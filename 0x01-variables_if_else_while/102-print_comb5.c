@@ -17,7 +17,7 @@ int a, b;
 	{
 		for (b = 0; b <= 99; b++)
 		{
-			for (i < j)
+			for (a < b)
 				
 			{
 				putchar((a / 10) + '0');
