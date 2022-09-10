@@ -16,7 +16,7 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		putchar(alpiha);
+		putchar(alpha);
 		alpha++;
 	}
 	alpha = 'A';
