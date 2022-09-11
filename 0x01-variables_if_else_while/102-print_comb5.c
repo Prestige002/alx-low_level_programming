@@ -12,29 +12,23 @@
  */
 int main(void)
 {
-int a, b;
-	for (a = 0; a <= 99; a++)
+int p, q;
+for (p = 0; p <= 98; p++)
+{
+	for (q = p + 1; q <= 99; q++)
 	{
-		for (b = 0; b <= 99; b++)
+		putchar((p / 10) + '0');
+		putchar((p % 10) + '0');
+		putchar(' ');
+		putchar((q / 10) + '0');
+		putchar((q % 10) + '0');
+		if (p != 98 || q != 99)
 		{
-			for (a < b)
-				
-			{
-				putchar((a / 10) + '0');
-				putchar((a % 10) + '0');
-				putchar(' ');
-				putchar((b / 10) + '0');
-       				putchar((b % 10) + '0');
-
-				if (a != 98 || b != 99)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+			putchar(',');
+			putchar(' ');
 		}
-			
 	}
-	putchar('\n');
-	return (0);
+}
+putchar('\n');
+return (0);
 }
