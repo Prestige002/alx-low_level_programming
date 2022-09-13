@@ -5,7 +5,7 @@
  * @c: loop through the lower and uppercase
  * Description: print lower or upper case
  *
- * Result: 1 or 0
+ * Result: 1
  */
 int _isalpha(int c)
 {
@@ -14,5 +14,7 @@ int _isalpha(int c)
  		return (1);
  	}
 	else
+	{
 		return (0);
+	}
 }
