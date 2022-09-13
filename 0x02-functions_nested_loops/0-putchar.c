@@ -3,7 +3,7 @@
 
 /**
  * main - print the underscore putchar
- *yh Return: zero
+ *Return: zero
  */
 int main(void)
 {
