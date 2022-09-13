@@ -2,8 +2,6 @@
 
 /**
  * print_sign - print the sign of a number
- * Description:print 0 if n == 0, print - if n < 0
- * @c: print + if n > 0
  *
  * Return: 1
  */
