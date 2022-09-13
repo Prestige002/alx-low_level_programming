@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* _islower - print a function if lowercase
+* _islower - print a function of a lowercase
 * Description: loop from a to z
-* print if its lowercase
+* @c: print if its lowercase
 *
 * Return: 0
 */
