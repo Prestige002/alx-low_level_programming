@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* int _islower(int c) - print a function if lowercase
+* _islower - print a function if lowercase
 * Description: loop from a to z
 * print if its lowercase
 *
