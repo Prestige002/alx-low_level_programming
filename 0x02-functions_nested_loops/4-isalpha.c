@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - print the alphabet 
+ * _isalpha - print the alphabet
  * Description: both uppercase and lowercase
  * @c: loop through the lower and uppercase
  *
