@@ -5,7 +5,7 @@
 * Description: loop from a to z
 * print if its lowercase
 *
-* Return: 1 or 0
+* Return: 0
 */
 int _islower(int c)
 {
