@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - return the alphabet
+ * _isalpha - print the alphabet
  * Description: both uppercase and lowercase
- * @c: loop through the lower and uppercase
- *
- * Result: one or zero if the letter is lower or uppercase
+ * @c: loop through the lower and uppercase. *
+ * Return: one or zero if the letter is lower or uppercase
  */
 int _isalpha(int c)
 {
