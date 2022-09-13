@@ -4,8 +4,7 @@
  * _isalpha - print the alphabet
  * Description: both uppercase and lowercase
  * @c: loop through the lower and uppercase
- *
- * Result: 1
+ * Result: one or zero
  */
 int _isalpha(int c)
 {
