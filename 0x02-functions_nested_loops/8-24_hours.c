@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - print every min of the day of Jack Bauer
- * @n: starting from 00:00 to 23:59
+ *Description: starting from 00:00 to 23:59
  *
  * Return: declaration
  */
