@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - print the last digit of a number
- * @n: use the % of 10
+ * @c: use the % of 10
  *
  * Return: declaration
  */
