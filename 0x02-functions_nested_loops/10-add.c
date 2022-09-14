@@ -3,7 +3,7 @@
 /**
  * add - print the sum of two integer
  * @n: sum the possible two number
- * Description: add n + m
+ * @m: add n + m
  *
  * Return: the result
  */
