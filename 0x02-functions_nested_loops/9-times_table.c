@@ -2,7 +2,7 @@
 
 /**
  * times_table - print the 9 times start from 0
- * @num: loop the the digit and multiply
+ * Description: loop the the digit and multiply
  *
  * Return: nill
  */
