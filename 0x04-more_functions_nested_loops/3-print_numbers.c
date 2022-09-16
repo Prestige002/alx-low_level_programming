@@ -2,9 +2,6 @@
 
 /**
  * print_numbers - prints the number
- * @i: from 0 - 9
- *
- * Return: the answer
  */
 void print_numbers(void)
 {
