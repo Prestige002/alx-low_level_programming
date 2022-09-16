@@ -2,16 +2,14 @@
 
 /**
  * print_numbers - prints the number
- * @i: from 0 - 9
- *
- * Return: the answer
  */
 void print_numbers(void)
 {
 	int i;
+
 	for (i = 48; i < 58; i++)
 	{
 		_putchar(i);
 	}
-_putchar('\n');
+	_putchar('\n');
 }
