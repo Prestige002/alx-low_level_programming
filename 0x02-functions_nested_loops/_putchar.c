@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
 *_putchar - written the character c to stdout
@@ -6,13 +6,7 @@
 *
 *On error, -1 is returned, and error is set appropriately.
 */
-void print_alphabet(void)
+int _putchar(char c)
 {
-	char i;
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		_putchar(i);
-	}
-_putchar('\n');
-return;
+return (write(1, &c, 1));
 }
