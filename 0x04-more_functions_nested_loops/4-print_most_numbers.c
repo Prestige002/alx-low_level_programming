@@ -12,8 +12,10 @@ void print_most_numbers(void)
 	{
 		if (j != 50 && j != 52)
 		{
-			putchar(j);
+			_putchar(j);
+			continue;
+			_putchar(j);
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
