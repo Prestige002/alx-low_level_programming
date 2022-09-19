@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string -print reverse string
+ * print_rev - print reverse string
  * @s: param should be use
  */
 void print_rev(char *s)
