@@ -4,25 +4,18 @@
  * rev_string -print reverse string
  * @s: param should be use
  */
-
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	char tmp;
-	int i, length1, length2;
+	int i = 0;
+	int j;
 
-	length1 = 0;
-	length2 = 0;
-
-	while (s[length1] != '\0')
-		length1++;
-
-	length2 = length1 - 1;
-	for (i = 0; i < length1 / 2; i++)
+	while (s[i] != '\0')
 	{
-
-		tmp = s[i];
-		s[i] = s[length2];
-		s[length2] = tmp;
-		length2 -= 1;
+		i++;
 	}
+	for (j = i - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+	_putchar('\n');
 }
