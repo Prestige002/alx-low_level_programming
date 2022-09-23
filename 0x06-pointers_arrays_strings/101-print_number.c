@@ -1,11 +1,9 @@
 #include "main.h"
-#include <unistd.h>
-
+#include <stdlib.h>
 /**
- * print_number - prints an integer.
- * @n: input params.
- *
- * Return: nill.
+ * print_number - check the code for print number.
+ * @n: is a int number
+ * Return: Always 0.
  */
 void print_number(int n)
 {
