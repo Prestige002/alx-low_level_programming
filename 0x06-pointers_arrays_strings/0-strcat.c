@@ -9,9 +9,6 @@ include <stdio.h>
  */
 char *_strcat(char *dest, char *src)
 {
-	*dest = 'go';
-	*src = 'school';
-	
 	concat(*dest + *src);
 	return (dest + '\0');
 }
