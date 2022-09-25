@@ -7,27 +7,32 @@
  */
 void print_number(int n)
 {
-	unsigned int = p, d, ln;
+	int cont = 1, num = n;
 
 	if (n < 0)
+		_putchar('-');
+
+	while (num / 10 != 0)
 	{
-		_putchar(45);
-		p = n* -1;
+		cont = cont * 10;
+		num = num / 10;
 	}
-	else
+
+	while ((n / cont != 0) && (cont != 1))
 	{
-		p = n;
+		_putchar(abs((n / cont)) + '0');
+
+		n = n % cont;
+
+		if (cont > 1)
+			cont = cont / 10;
+
+		while ((abs(n) < cont) && (cont > 1))
+		{
+			_putchar('0');
+			 cont = cont / 10;
+		}
 	}
-	d = p;
-	ln = 1;
-	
-	while (d > 9)
-	{
-		d /= 10;
-		ln *= 10;
-	}
-	for (; ln >= 1; ln /= 10)
-	{
-		_putchar(((p / ln) % 10) + 48);
-	}
+
+	_putchar(abs(n) + '0');
 }
