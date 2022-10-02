@@ -6,10 +6,11 @@
  * @argc: params int
  * @argv: params
  *
- * Return 0
+ * Return: 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%d\n", argc - 1);
+	printf("%i\n", argc - 1);
+
 	return (0);
 }
