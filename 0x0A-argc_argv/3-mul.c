@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int atoi(const char *nptr);
 /**
  * main - multiplies two number
  * @argc: params
@@ -10,6 +9,8 @@ int atoi(const char *nptr);
  * Return:  0 on success
  * 1 on fail.
  */
+
+int atoi(const char *nptr);
 int main(int argc, char *argv[])
 {
 	int i, num1 = 1;
