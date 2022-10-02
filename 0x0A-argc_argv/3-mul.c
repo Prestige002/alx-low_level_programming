@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
+
+int atoi(const char *nptr);
 /**
  * main - multiplies two number
  * @argc: params
