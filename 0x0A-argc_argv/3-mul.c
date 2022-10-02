@@ -10,7 +10,6 @@
  * 1 on fail.
  */
 
-int atoi(const char *nptr);
 int main(int argc, char *argv[])
 {
 	int i, num1 = 1;
