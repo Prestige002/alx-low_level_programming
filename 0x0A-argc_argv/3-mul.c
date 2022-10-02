@@ -7,7 +7,8 @@ int atoi(const char *nptr);
  * @argc: params
  * @argv: params
  *
- * Return: 1
+ * Return:  0 on success
+ * 1 on fail.
  */
 int main(int argc, char *argv[])
 {
