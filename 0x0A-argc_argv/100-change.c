@@ -14,7 +14,7 @@ int atoi(const char *nptr);
 int main(int argc, char *argv[])
 {
 	int num, i, result;
-	int coins[] = {25, 10, 5, 2,1};
+	int coins[] = {25, 10, 5, 2, 1};
 
 	result = 0;
 	if (argc == 1)
