@@ -10,10 +10,8 @@ void *malloc_checked(unsigned int b)
 {
 	int *mem, i;
 
-	mem = malloc(sizeof(b) * length);
+	mem = malloc(sizeof(b);
 	if (mem == NULL)
 		exit (98);
-	for (i = 0; i < b; i++)
-		mem[i] = b[i];
 	return (mem);
 }
