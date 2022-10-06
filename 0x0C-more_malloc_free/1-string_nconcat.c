@@ -2,16 +2,16 @@
 
 /**
  * string_nconcat - concatenates two strings.
- * @s1: first string params
- * @s2: second string params
- * @n: index params
+ * @s1: first string
+ * @s2: second string
+ * @n: index
  * Return: char pointer
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
-	unsigned int len1 = 0, len2 = 0, i;
+	unsigned int size1 = 0, size2 = 0, i;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -19,33 +19,33 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	while (s1[len1] != '\0')
+	while (s1[size1] != '\0')
 	{
-		len1++;
+		size1++;
 	}
 
-	while (s2[len2] != '\0')
+	while (s2[size2] != '\0')
 	{
-		len2++;
+		size2++;
 	}
 
-	if (n > len2)
-	n = len2;
-	p = malloc((len1 + n + 1) * sizeof(char));
+	if (n > size2)
+	n = size2;
+	p = malloc((size1 + n + 1) * sizeof(char));
 
 	if (p == NULL)
 		return (0);
 
-	for (i = 0; i < len1; i++)
+	for (i = 0; i < size1; i++)
 	{
 		p[i] = s1[i];
 	}
 
-	for (; i < (len1 + n); i++)
+	for (; i < (size1 + n); i++)
 	{
-		p[i] = s2[i - len1];
+		p[i] = s2[i - size1];
 	}
 	p[i] = '\0';
 
-	return (p);
+return (p);
 }
