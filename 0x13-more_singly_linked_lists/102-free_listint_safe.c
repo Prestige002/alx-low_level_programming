@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * free_listint_safe - mas listas enlazadas
- * @h: Doble puntero asignado
- * Return: i
+ * free_listp2 - frees a linked list
+ * @head: head of a list.
+ *
+ * Return: no return.
  */
 size_t free_listint_safe(listint_t **h)
 {
